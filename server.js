@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function(req, res) {
 
-    res.send("Welcome to Node-EB");
+    res.send("Welcome to Node with OpWorks");
 });
 
 var port = process.env.PORT || 80;
